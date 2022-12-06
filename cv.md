@@ -4,7 +4,7 @@
 ---
 ### Contact information:
 
-Email: NurgaleevaDK@yandex.ru
-Telegram: @DianaNurgaleeva
+   Email: NurgaleevaDK@yandex.ru
+   Telegram: @DianaNurgaleeva
 
 ---
