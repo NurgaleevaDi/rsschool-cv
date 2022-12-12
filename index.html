@@ -12,21 +12,101 @@
     <div class="container">
         <nav class="header__nav">
             <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Education</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Courses</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Experience</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Skills</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Tools</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Code</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Language</a></li>
+                <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contact</a></li>
+                <li class="header__nav-item"><a href="#education" class="header__nav-link">Education</a></li>
+                <li class="header__nav-item"><a href="#courses" class="header__nav-link">Courses</a></li>
+                <li class="header__nav-item"><a href="#experience" class="header__nav-link">Experience</a></li>
+                <li class="header__nav-item"><a href="#skills" class="header__nav-link">Skills</a></li>
+                <li class="header__nav-item"><a href="#tools" class="header__nav-link">Tools</a></li>
+                <li class="header__nav-item"><a href="#code" class="header__nav-link">Code</a></li>
+                <li class="header__nav-item"><a href="#language" class="header__nav-link">Language</a></li>
             </ul>
         </nav>
     </div>
   </header>
   <main class="main">
     <div class="container">
-
+        <section class="section section__contact" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <ul class="section__contact-list">
+                <li class="section-item section__contact-item">Email: NurgaleevaDK@yandex.ru</li>
+                <li class="section-item section__contact-item">Telegram: @DianaNurgaleeva</li>
+            </ul>
+        </section>
+        <section class="section section__education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="section-list">
+                <li class="section-item"><span class="section-span">2004 </span>Moscow State University of Engineering Ecology</li>
+                <li class="section-item"><span class="section-span">2007 </span>Financial University under the Government of the Russian Federation</li>
+            </ul>
+        </section>
+        <section class="section section__courses" id="courses">
+            <h2 class="section-title">Сourses</h2>
+            <ul class="section-list">
+                <li class="section-item"><span class="section-span">2022 </span>Yandex.Practicum, Web Development</li>
+            </ul>
+        </section>
+        <section class="section section__experience" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="section-list">
+                <li class="section-item"><span class="section-span">2021 - 2022 </span>Yandex.Practicum, Web Development
+                    <ul>
+                        <li><a href="https://github.com/NurgaleevaDi/russian-travel-portfolio.git">Landing. Travel</a></li>
+                        <li><a href="https://github.com/NurgaleevaDi/how-to-learn-portfolio.git">Landing. How to learn</a></li>
+                    </ul>
+                </li>
+                <li class="section-item"><span class="section-span">2006 - 2022 </span>Rosneft - TNK-BP - Lukoil, Refinery Planning (PIMS - production planning optimization solution)</li>
+            </ul>
+        </section>
+        <section class="section section__skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+                <li class="section-item">HTML</li>
+                <li class="section-item">CSS</li>
+                <li class="section-item">JavaScript Basics</li>
+            </ul>
+        </section>  
+        <section class="section section__tools" id="tools">
+            <h2 class="section-title">Tools</h2>
+            <ul class="section-list">
+                <li class="section-item">Git</li>
+                <li class="section-item">Figma</li>
+                <li class="section-item">Postman</li>
+                <li class="section-item">MangoDB</li>
+            </ul>
+        </section>
+        <section class="section section__code" id="code">
+            <h2 class="section-title">Code example</h2>
+            <code>
+                Codewars: Help the frog to find a way to freedom
+                <blockquote>
+                    You have an array of integers and have a frog at the first position [Frog, int, int, int, ..., int]
+                    The integer itself may tell you the length and the direction of the jump Your objective is to find
+                    how many jumps are needed to jump out of the array. Return -1 if Frog can’t jump out of the array.
+                </blockquote>
+                <pre>
+                    function solution(a) {
+                        let steps = 0;
+                        for (i = 0; i < a.length+1; i++) {
+                            if (steps < 0 || steps >= a.length) {
+                                return i;
+                            } else {
+                                steps += a[steps];   
+                            } 
+                        }
+                        return -1;
+                    }
+                </pre>
+            </code>
+        </section>
+        <section class="section section__language" id="language">
+            <h2 class="section-title">Languages</h2>
+            <ul class="section-list">
+                <li class="section-item">Russian. Native</li>
+                <li class="section-item">English. Pre-Intermediate</li>
+                <li class="section-item">Tatar. A little bit)</li>
+            </ul>
+        </section>
     </div>
   </main>
   <footer class="footer">

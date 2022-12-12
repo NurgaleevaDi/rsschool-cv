@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'OpenSans';
-    src: url(./assets/fonts/OpenSans-Regular.ttf);
+    src: url(./assets/fonts/OpenSans-Light.ttf);
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'OpenSans';
-    src: url(./assets/fonts/OpenSans-Medium.ttf);
+    src: url(./assets/fonts/OpenSans-Regular.ttf);
     font-weight: 400;
 }
 
@@ -16,6 +16,10 @@ html {
 
 body {
     font-family: OpenSans, sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #2E2E2E;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -41,6 +45,7 @@ body {
 }
 
 .header__nav-link {
+    color: #2E2E2E;
     transition: opacity 0.3s;
 }
 
@@ -53,3 +58,26 @@ body {
     line-height: 50px;
     text-decoration: none;
 }
+
+.section-title {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.section__contact-list {
+    list-style: none;
+}
+
+.section-item {
+    padding-bottom: 10px;
+}
+
+.section__contact-item:last-child {
+    padding-bottom: 0;
+}
+
+.section-span {
+    font-weight: 400;
+}
+
