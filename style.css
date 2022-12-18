@@ -221,6 +221,10 @@ a:hover {
     font-size: 16px;
 }
 
+.section__code-description {
+    font-style: italic;
+}
+
 .footer {
     width: 100%;
 }
